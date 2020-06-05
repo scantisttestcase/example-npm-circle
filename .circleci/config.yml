@@ -8,4 +8,4 @@ jobs:
       - checkout            
       - run:
           name: install-npm
-          command: npm install
+          command: npm install --save dependency-tree
